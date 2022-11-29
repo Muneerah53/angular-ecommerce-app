@@ -1,0 +1,82 @@
+<div class="card-body">
+  <form (ngSubmit)="checkout()" #form="ngForm" class="row g-3">
+    <div class="col-md-6">
+      <input
+        required
+        type="text"
+        name="first name"
+        placeholder="First Name"
+        class="form-control"
+        minlength="3"
+        maxlength="30"
+        [(ngModel)]="firstName"
+      />
+    </div>
+    <div class="col-md-6">
+      <input
+        required
+        type="text"
+        name="last name"
+        placeholder="Last Name"
+        class="form-control"
+        minlength="3"
+        maxlength="30"
+        [(ngModel)]="lastName"
+      />
+    </div>
+    <div class="col-12">
+      <input
+        required
+        type="text"
+        name="address"
+        placeholder="Address"
+        class="form-control"
+        minlength="6"
+        maxlength="50"
+        [(ngModel)]="address"
+      />
+    </div>
+    <div class="col-12">
+      <input
+        required
+        type="tel"
+        inputmode="numeric"
+        pattern="[0-9]*"
+        name="card number"
+        placeholder="Card Number"
+        class="form-control"
+        minlength="8"
+        maxlength="19"
+        [(ngModel)]="cardNumber"
+      />
+    </div>
+
+    <div class="col-md-6">
+      <input
+        type="month"
+        name="expiry"
+        class="form-control"
+        [(ngModel)]="cardExpiry"
+        required
+      />
+    </div>
+    <div class="col-md-6">
+      <input
+        type="number"
+        name="cvc"
+        class="form-control"
+        placeholder="CVC"
+        max="999"
+        required
+        pattern="[0-9]{3}"
+        [(ngModel)]="cardCVC"
+        required
+        #cvc="ngModel"
+      />
+    </div>
+    <input type="submit" [disabled]="form.invalid" class="btn btn-primary" />
+    <div class="col-12" *ngIf="form.invalid && form.dirty">
+      <p class="text-danger">{{ errorMsg() }}</p>
+    </div>
+  </form>
+</div>

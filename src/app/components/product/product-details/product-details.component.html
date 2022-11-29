@@ -1,0 +1,48 @@
+<div class="container item">
+  <div class="row vh-90">
+    <div class="col-md-3 card">
+      <div>
+        <img src="{{ product.image }}" alt="" class="card-img prod-img" />
+      </div>
+    </div>
+
+    <div class="col-md-6 mb-4">
+      <div class="p-4">
+        <p class="lead">
+          <span>{{ product.name }}</span>
+        </p>
+
+        <p class="font-weight-bold">Description</p>
+
+        <p>{{ product.description }}</p>
+
+        <strong>
+          <p>{{ product.price }} Bells</p></strong
+        >
+
+        <form class="d-flex" (ngSubmit)="addToCart()">
+          <input
+            max="100"
+            min="1"
+            type="number"
+            name="quantity"
+            [(ngModel)]="quantity"
+            class="form-control"
+            style="width: 100px"
+          />
+          <button class="btn btn-primary btn-md my-0 p" type="submit">
+            Add to cart
+            <i class="fas fa-shopping-cart ml-1"></i>
+          </button>
+        </form>
+        <div class="pt-5">
+          <h6 class="mb-0">
+            <a routerLink="items" class="text-body"
+              ><i class="fas fa-long-arrow-alt-left me-2"></i>Back to shop</a
+            >
+          </h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

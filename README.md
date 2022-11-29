@@ -1,27 +1,16 @@
-# AngularStorefront
+# angular-ecommerce-app
+
+A simple ecommerce application built with Angular and Bootstrap. The application includes basic e-commerce website features and it fetches product data from a JSON file found in the folder `assets`.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
 
-## Development server
+## Features:
+- Product List page where the user can browse all available products and add them to their shopping cart.
+- Product Details page, which displays the information and description of the selected product and allows the user to add the product to the cart in the quantity wanted.
+- A shopping cart that shows all of the items that the user has placed in it. - A checkout form in which the user enters payment and shipping information.
+- Order confirmation, indicating that the order was completed successfully.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Start the Application
+- Run `npm install`
+- Run `ng serve` to start the server. Navigate to `http://localhost:4200/`.

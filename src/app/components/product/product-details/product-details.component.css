@@ -1,0 +1,9 @@
+
+.card {
+  background-color: rgb(251, 251, 251);
+  border-color: rgb(216, 216, 216);
+  height: 75%;
+}
+.prod-img {
+  width: 100%;
+}

@@ -1,0 +1,19 @@
+.cart{
+    position: relative;
+    }
+
+    .cart:hover{
+       cursor: pointer;
+        }
+
+    .cart span{
+    font-size: 10px;
+    position: absolute;
+    top: -8px;
+    right: -5px; 
+    }
+
+    .bg-cart{
+        background-color: #5fc4bb
+        ;
+    }

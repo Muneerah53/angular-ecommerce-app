@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Froggy Chair",
+    "description": "Froggy Chair is a houseware item. It's a green plastic chair that looks like a frog. ",
+    "price": 1200,
+    "image": "https://dodo.ac/np/images/1/12/Froggy_Chair_%28Green%29_NH_Icon.png"
+  },
+
+  {
+    "id": 2,
+    "name": "Lily-Pad Table",
+    "description": "The Lily-Pad Table is a houseware item. The item's top surface can be used to place smaller items, such as miscellaneous furniture.",
+    "price": 1200,
+    "image": "https://dodo.ac/np/images/7/7c/Lily-Pad_Table_%28Green%29_NH_Icon.png"
+  },
+  {
+    "id": 3,
+    "name": "Vintage Sofa",
+    "description": "A vitage brown sofa. A retro sofa that introduce character to a space.",
+    "price": 26000,
+    "image": "https://dodo.ac/np/images/a/ab/Vintage_Sofa_%28Brown%29_NH_Icon.png"
+  },
+  {
+    "id": 4,
+    "name": "Vintage Tray",
+    "description": "A green TV tray. The item's top surface can be used to place smaller items, such as miscellaneous furniture.",
+    "price": 1100,
+    "image": "https://dodo.ac/np/images/9/92/Vintage_TV_Tray_%28Gold_-_Green%29_NH_Icon.png"
+  },
+  {
+    "id": 5,
+    "name": "Retro TV",
+    "description": "The Retro TV is a houseware item. you can interact with this item to turn it on and off. When turned on, a television program plays.",
+    "price": 6000,
+    "image": "https://dodo.ac/np/images/6/61/Retro_TV_%28Dark_Brown%29_NH_Icon.png"
+  },
+  {
+    "id": 6,
+    "name": "Cute Wall-Mounted Clock",
+    "description": "A heart shaped wall-mounted clock in pink.",
+    "price": 1500,
+    "image": "https://dodo.ac/np/images/e/e4/Cute_Wall-Mounted_Clock_%28White%29_NH_Icon.png"
+  },
+  {
+    "id": 7,
+    "name": "Cuckoo Clock",
+    "description": "A beige wall-mounted clock.",
+    "price": 3200,
+    "image": "https://dodo.ac/np/images/f/f0/Cuckoo_Clock_%28Natural%29_NH_Icon.png"
+  },
+  {
+    "id": 8,
+    "name": "Peacock Chair",
+    "description": "A light brown and red seating chair.",
+    "price": 27000,
+    "image": "https://dodo.ac/np/images/9/9e/Peacock_Chair_%28Light_Brown_%26_Red%29_NH_Icon.png"
+  },
+
+  {
+    "id": 9,
+    "name": "Patchwork Chair",
+    "description": "A colorful sofa chair. This retro chair will make your living room super fun and vibrant",
+    "price": 3300,
+    "image": "https://dodo.ac/np/images/d/d7/Patchwork_Chair_%28Colorful%29_NH_Icon.png"
+  },
+  {
+    "id": 10,
+    "name": "Patchwork Low Table",
+    "description": "A colorful low table. The item's top surface can be used to place smaller items, such as miscellaneous furniture.",
+    "price": 5500,
+    "image": "https://dodo.ac/np/images/6/6d/Patchwork_Low_Table_%28Colorful%29_NH_Icon.png"
+  },
+  {
+    "id": 11,
+    "name": "Floor Lamp",
+    "description": "A beige floor lamp with a yellow lampshade pattern.",
+    "price": 1400,
+    "image": "https://dodo.ac/np/images/7/7d/Floor_Lamp_%28Natural_-_Yellow_Design%29_NH_Icon.png"
+  },
+  {
+    "id": 12,
+    "name": "Framed Photo",
+    "description": "A framed ocean photo with a natural brown frame.",
+    "price": 500,
+    "image": "https://dodo.ac/np/images/b/bc/Framed_Photo_%28Brown_-_Ocean_Photo%29_NH_Icon.png"
+  },
+  {
+    "id": 13,
+    "name": "Horizontal Organizer",
+    "description": "A white horizontal organizer with a Two-Tone Dots design pattern.",
+    "price": 1800,
+    "image": "https://dodo.ac/np/images/9/96/Horizontal_Organizer_%28White_-_Two-Tone_Dots%29_NH_Icon.png"
+  },
+  {
+    "id": 14,
+    "name": "Stair Dresser",
+    "description": "A light brown retro dresser with an antique design.",
+    "price": 17100,
+    "image": "https://dodo.ac/np/images/4/4c/Stair_Dresser_%28Empress-Tree_Wood%29_NH_Icon.png"
+  }
+]

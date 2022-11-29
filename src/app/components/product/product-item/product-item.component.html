@@ -1,0 +1,17 @@
+<div class="col mb-4">
+  <div class="card text-center">
+    <img
+      routerLink="/items/{{ product.id }}"
+      src="{{ product.image }}"
+      class="card-img"
+      alt="..."
+    />
+    <div class="card-body">
+      <p class="card-title">{{ product.name }}</p>
+      <h4 class="card-text">{{ product.price }} Bells</h4>
+      <button class="btn btn-primary" (click)="add(product)">
+        Add to cart
+      </button>
+    </div>
+  </div>
+</div>
