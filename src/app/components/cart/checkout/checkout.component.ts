@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { CartService } from 'src/app/services/cart.service';
 
 @Component({
   selector: 'app-checkout',
@@ -13,7 +14,17 @@ export class CheckoutComponent {
   cardNumber: string = '';
   cardExpiry: string = '';
   cardCVC: string = '';
-  constructor(private route: ActivatedRoute, private router: Router) {}
+  constructor(
+    private route: ActivatedRoute,
+    private router: Router,
+    private cart: CartService
+  ) {}
+
+  checkout() {
+    this.cart.clearCart();
+    this.router.navigate(['/success'], { relativeTo: this.route });
+  }
+
   errorMsg(): string {
     if (this.firstName.trim().length === 0) {
       return '* First name required';
@@ -56,9 +67,5 @@ export class CheckoutComponent {
     }
 
     return '';
-  }
-
-  checkout() {
-    this.router.navigate(['/success'], { relativeTo: this.route });
   }
 }

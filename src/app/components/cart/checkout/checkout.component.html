@@ -74,7 +74,7 @@
         #cvc="ngModel"
       />
     </div>
-    <input type="submit" [disabled]="form.invalid" class="btn btn-primary" />
+    <input value="Confirm Order" type="submit" [disabled]="form.invalid" class="btn btn-primary" />
     <div class="col-12" *ngIf="form.invalid && form.dirty">
       <p class="text-danger">{{ errorMsg() }}</p>
     </div>
